@@ -16,6 +16,12 @@ public class Circle extends Shape {
 		// TODO Auto-generated method stub
 		return Math.PI * banKinh * banKinh;
 	}
+	@Override
+	public String toString() {
+		return "Circle [r=" + banKinh + "]";
+	}
+	
+
 	
 
 }

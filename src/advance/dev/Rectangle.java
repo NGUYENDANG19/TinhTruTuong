@@ -20,6 +20,11 @@ public class Rectangle extends Shape {
 	public double chuVi() {
 		// TODO Auto-generated method stub
 		return ( chieuDai +chieuRong)*2;
+		
 	}
+	@Override
+	public String toString() {
+		return "Rectangle [a=" + chieuDai + ", b=" + chieuRong + "]";
 
+}
 }

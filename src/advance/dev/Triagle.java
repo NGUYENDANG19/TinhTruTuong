@@ -25,5 +25,9 @@ public class Triagle extends Shape {
 		// TODO Auto-generated method stub
 		return a+b+c;
 	}
+	@Override
+	public String toString() {
+		return "Triangle [a=" + a + ", b=" + b + ", c=" + c + "]";
+	}
 
 }
